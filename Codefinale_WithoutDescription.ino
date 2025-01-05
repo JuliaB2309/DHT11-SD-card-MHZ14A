@@ -12,8 +12,7 @@
 #define mosi 23
 #define cs 5
 #define DHTPIN 21       
-#define DHTTYPE DHT11   
-#define SD_CS 5         
+#define DHTTYPE DHT11           
 
 DHT dht(DHTPIN, DHTTYPE);
 HardwareSerial mySerial(2); 
